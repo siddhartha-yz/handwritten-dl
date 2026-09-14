@@ -1,0 +1,23 @@
+[project]
+name = "deep-learning-from-scratch"
+version = "0.1.0"
+description = "From-scratch implementations of deep learning modules."
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+    "numpy",
+    "pandas",
+    "torch",
+    "d2l",
+]
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
