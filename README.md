@@ -1,6 +1,6 @@
-# Deep Learning from Scratch
+# handwritten-dl
 
-From-scratch implementations of deep learning modules.
+Handwritten implementations of deep learning modules, written while studying their source.
 
 ## Setup
 

@@ -1,7 +1,7 @@
 [project]
-name = "deep-learning-from-scratch"
+name = "handwritten-dl"
 version = "0.1.0"
-description = "From-scratch implementations of deep learning modules."
+description = "Handwritten implementations of deep learning modules, written while studying their source."
 readme = "README.md"
 requires-python = ">=3.10,<3.12"
 dependencies = [
